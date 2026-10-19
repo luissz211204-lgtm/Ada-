@@ -1,0 +1,28 @@
+node_modules/
+.next/
+out/
+build/
+coverage/
+
+# Base de datos local y archivos subidos
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+uploads/
+
+# Secretos
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+next-env.d.ts
